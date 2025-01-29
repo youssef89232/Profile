@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- custom css file link  -->
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<!-- swiper css link  -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+		<!-- font awesome cdn link  -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<title>Portfolio</title>
+	</head>
+
+	<body>
+		<!-- header start  -->
+
+		<header class="header">
+			<div class="container">
+				<a href="#" class="logo">Y</a>
+
+				<div id="menu-bar" class="fas fa-bars"></div>
+
+				<div class="navbar">
+					<a href="#home">home</a>
+					<a href="#about">about</a>
+					<a href="#services">services</a>
+					<a href="#portfolio">portfolio</a>
+					<a href="#testimonials">testimonials</a>
+					<a href="#contact">contact</a>
+				</div>
+			</div>
+		</header>
+
+		<!-- header end  -->
+
+		<!-- home start  -->
+
+		<section class="home" id="home">
+			<div class="content">
+				<h3>hello, my name is</h3>
+				<h1>youssef mohamed</h1>
+				<p>and i'm a <span class="typing"></span></p>
+				<button class="btn">download resume</button>
+			</div>
+		</section>
+
+		<!-- home end  -->
+
+		<!-- about start  -->
+
+		<section class="about" id="about">
+			<div class="heading">
+				<h1>about me !</h1>
+				<p>lorem ipsum, dolor sit amet consectetur.</p>
+			</div>
+
+			<div class="container">
+				<div class="image">
+					<img src="./images/home.jpg" alt="" />
+					<div class="overlay">
+						<div class="share">
+							<a href="#" class="fab fa-facebook-f"></a>
+							<a href="#" class="fab fa-twitter"></a>
+							<a href="#" class="fab fa-instagram"></a>
+							<a href="#" class="fab fa-google"></a>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="flex">
+						<span class="details-btn active">details</span>
+						<span class="skills-btn">skills</span>
+					</div>
+					<div class="column">
+						<div class="details active">
+							<h3>about me.</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+								minus repudiandae quis vitae quod quasi accusantium doloribus
+								dicta, qui provident ullam architecto. Sapiente ab iusto,
+								deleniti ad facere labore debitis? Lorem ipsum dolor sit amet
+								consectetur adipisicing elit. Id fugiat facere aliquam animi
+								officia magnam sunt ducimus laborum, quas autem at quaerat
+								reprehenderit possimus doloremque similique veniam eligendi
+								dolorum eos. Lorem ipsum, dolor sit amet consectetur adipisicing
+								elit. Vitae vero ex, repellendus nemo impedit, quos nostrum
+								velit incidunt atque perferendis mollitia quibusdam! Quisquam
+								provident non nihil, aliquid voluptatibus quos fuga?
+							</p>
+						</div>
+						<div class="skills">
+							<ul class="progress-list">
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>HTML</p>
+										<span>95 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 95%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>CSS</p>
+										<span>80 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 80%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>Javascript</p>
+										<span>85 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 85%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>SASS</p>
+										<span>75 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 75%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>PHP</p>
+										<span>90 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 90%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+								<li class="progress-item">
+									<div class="label-wrapper">
+										<p>MYSQL</p>
+										<span>70 %</span>
+									</div>
+									<div class="progress">
+										<div class="progress-fill" style="width: 70%; background-color: #1bbca8"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- about end  -->
+
+		<!-- projects counter start  -->
+
+		<section class="projects-counter">
+			<div class="box-container">
+				<div class="box">
+					<i class="fa-solid fa-face-smile"></i>
+					<span>646</span>
+					<h3>happy clients</h3>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-clock"></i>
+					<span>894</span>
+					<h3>hours of work</h3>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-cart-shopping"></i>
+					<span>742</span>
+					<h3>projects done</h3>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-mug-hot"></i>
+					<span>632</span>
+					<h3>coffee taken</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- projects counter end  -->
+
+		<!-- services start  -->
+
+		<section class="services" id="services">
+			<div class="heading">
+				<h1>what i do ?</h1>
+				<p>lorem ipsum, dolor sit amet consectetur.</p>
+			</div>
+
+			<div class="box-container">
+				<div class="box">
+					<i class="fa-solid fa-paintbrush"></i>
+					<h3>web desgin</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam aliquam doloremque sunt facilis,
+						dignissimos nihil quod nulla incidunt corrupti eius possimus. Maiores, eos voluptatibus amet similique nemo
+						molestias asperiores!</p>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-code"></i>
+					<h3>web devlop</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam aliquam doloremque sunt facilis,
+						dignissimos nihil quod nulla incidunt corrupti eius possimus. Maiores, eos voluptatibus amet similique nemo
+						molestias asperiores!</p>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-camera"></i>
+					<h3>graphic desgin</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam aliquam doloremque sunt facilis,
+						dignissimos nihil quod nulla incidunt corrupti eius possimus. Maiores, eos voluptatibus amet similique nemo
+						molestias asperiores!</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- services end  -->
+
+		<!-- available start  -->
+
+		<section class="available">
+			<div class="container">
+				<h1>i'm available for freelancer projects</h1>
+				<a href="#" class="btn">text me</a>
+			</div>
+		</section>
+
+		<!-- available end  -->
+
+		<!-- portfolio start  -->
+
+		<section class="portfolio" id="portfolio">
+			<div class="heading">
+				<h1>portfolio.</h1>
+				<p>lorem ipsum, dolor sit amet consectetur.</p>
+			</div>
+
+			<div class="box-container">
+				<div class="box">
+					<div class="image">
+						<img src="./images/p1.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./images/p2.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./images/p3.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./images/p4.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./images/p5.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="./images/p6.jpg" alt="">
+					</div>
+					<div class="content">
+						<i class="fa-solid fa-camera"></i>
+						<h3>graphic desgin</h3>
+						<span>desgin</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- portfolio end  -->
+
+		<!-- testimonials start  -->
+
+		<section class="testimonials" id="testimonials">
+			<div class="testimonials-slider swiper">
+				<div class="swiper-wrapper">
+					<section class="slide swiper-slide">
+						<div class="quote">
+							<i class="fa-solid fa-quote-left"></i>
+						</div>
+						<div class="image">
+							<img src="./images/t1.jpeg" alt="">
+						</div>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, minima, totam voluptatem, officia
+							cumque
+							ipsam quibusdam facilis quaerat quidem ad sunt quod? Quia nam amet atque eius veritatis fugit iste!</p>
+						<span>- john smith</span>
+					</section>
+					<section class="slide swiper-slide">
+						<div class="quote">
+							<i class="fa-solid fa-quote-left"></i>
+						</div>
+						<div class="image">
+							<img src="./images/t2.jpeg" alt="">
+						</div>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, minima, totam voluptatem, officia
+							cumque
+							ipsam quibusdam facilis quaerat quidem ad sunt quod? Quia nam amet atque eius veritatis fugit iste!</p>
+						<span>- john smith</span>
+					</section>
+					<section class="slide swiper-slide">
+						<div class="quote">
+							<i class="fa-solid fa-quote-left"></i>
+						</div>
+						<div class="image">
+							<img src="./images/t3.jpeg" alt="">
+						</div>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, minima, totam voluptatem, officia
+							cumque
+							ipsam quibusdam facilis quaerat quidem ad sunt quod? Quia nam amet atque eius veritatis fugit iste!</p>
+						<span>- john smith</span>
+					</section>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<!-- testimonials end  -->
+
+		<!-- info start  -->
+
+		<section class="info">
+			<div class="box-container">
+				<div class="box">
+					<i class="fas fa-home"></i>
+					<h3>home address</h3>
+					<span>location, egypt</span>
+				</div>
+				<div class="box">
+					<i class="fas fa-envelope"></i>
+					<h3>email address</h3>
+					<span>location, egypt</span>
+				</div>
+				<div class="box">
+					<i class="fas fa-phone"></i>
+					<h3>phone number</h3>
+					<span>+0 00 11 00 11</span>
+				</div>
+				<div class="box">
+					<i class="fab fa-instagram"></i>
+					<h3>instagram</h3>
+					<span>account</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- info end  -->
+
+		<!-- contact start  -->
+
+		<section class="contact" id="contact">
+			<div class="heading">
+				<h1>contact me.</h1>
+				<p>lorem ipsum, dolor sit amet consectetur.</p>
+			</div>
+			<div class="row">
+				<iframe class="map"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.823214846215!3d19.14783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1632137920043!5m2!1sen!2sin"
+					allowfullscreen="" loading="lazy"></iframe>
+
+				<form action="">
+					<h3>get in touch</h3>
+					<input type="text" placeholder="your name *" class="box">
+					<input type="email" placeholder="your email *" class="box">
+					<input type="tel" placeholder="subject *" class="box">
+					<textarea placeholder="your message" name="" id="" cols="30" rows="10" class="box"></textarea>
+					<input type="submit" value="send" class="btn">
+				</form>
+			</div>
+		</section>
+
+		<!-- contact end  -->
+
+		<!-- footer start  -->
+
+		<div class="footer">
+			<div class="credit">created by youssef mohamed | all rights reserved</div>
+		</div>
+
+		<!-- footer end  -->
+
+		<!-- typed js cdn link  -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+			referrerpolicy="no-referrer"></script>
+		<!-- swiper js link  -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+		<!-- custom js file link  -->
+		<script src="./js/script.js"></script>
+	</body>
+
+</html>
